@@ -1,0 +1,35 @@
+.checkoutItem{
+    display: flex;
+    margin-top: 26rem;
+}
+.mealImg{
+    width: 150rem;
+}
+.mealImg img{
+    width: 100%;  
+}
+.desc{
+    flex: auto;/*自动撑开*/
+    margin-left: 20rem;
+    display: flex;
+    flex-flow: column;/*Y轴垂直布局*/
+    justify-content: space-evenly;/*垂直居中*/
+
+}
+.title{
+    font-weight: bold;
+    font-size: 26rem;
+    margin-bottom: 16rem;
+}
+.priceOuter{
+    font-size: 24rem;
+    display: flex;
+    justify-content: space-between;
+}
+.price{
+    font-weight: bold;
+}
+.price::before{
+    content: '￥';
+    font-weight: normal;
+}

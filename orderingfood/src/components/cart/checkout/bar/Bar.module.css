@@ -1,0 +1,36 @@
+.bar{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    bottom: 20rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 20px;
+    width: 700rem;
+    height: 80rem;
+    background-color: #333;
+    z-index: 9999;
+}
+
+.totalPrice{
+    margin-left: 50rem;
+    font-size: 30rem;
+    font-weight: bold;
+    line-height: 80rem;
+    color: white;
+}
+
+.totalPrice::before{
+    content: '合计￥';
+    font-size: 24rem;
+}
+
+.button{
+    border-radius: 20px;
+    border: none;
+    width: 160rem;
+    background-color: #FcbF49;
+    line-height: 80rem;
+    font-size: 30rem;
+}

@@ -1,0 +1,9 @@
+.meals{
+    /* 开启绝对定位，撑满屏幕 */
+    width: 100%;
+    position: absolute;
+    top: 100rem;
+    bottom: 0;
+    overflow: auto;
+    padding-bottom: 100rem;
+}

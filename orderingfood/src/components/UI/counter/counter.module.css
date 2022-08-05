@@ -1,0 +1,28 @@
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.count{
+    margin: 0 12rem;
+}
+.add,.sub{
+    width: 40rem;
+    height: 40rem;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    border-radius: 50%;
+    background-color: #FcbF49;
+    font-size: 22rem;
+}
+.sub{
+    border: 1px solid black;
+    background-color: white;
+}
+.button{
+    width: 35rem;
+    height: 35rem;
+}

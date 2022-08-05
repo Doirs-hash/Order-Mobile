@@ -1,0 +1,32 @@
+.cartDetil{
+    background-color: #fff;
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    width: 750rem;
+    max-height: 1100rem;
+    bottom: 0;
+    padding-bottom: 100rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 26rem;
+    border-bottom: #aaa solid 1px;
+}
+.title{
+    font-size: 28rem;
+    font-weight: bold;
+}
+.clear{
+    font-size: 24rem;
+    color: #aaa;
+}
+.clear span{
+    margin-left: 16rem;
+}
+.cartMeal{
+    overflow: auto;
+}

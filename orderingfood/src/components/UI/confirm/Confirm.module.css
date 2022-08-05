@@ -1,0 +1,37 @@
+.backgrop{
+    z-index: 9999;
+}
+.confirm{
+    width: 700rem;
+    height: 300rem;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.text{
+    font-size: 38rem;
+}
+
+.cancel,.ok{
+    width: 180rem;
+    height: 60rem;
+    background-color: white;
+    border: 1px solid #aaa;
+    border-radius: 20px;
+    font-size: 28rem;
+}
+.ok{
+    background-color: #fcbf49;
+    border: none;
+    margin-left: 50rem;
+}
